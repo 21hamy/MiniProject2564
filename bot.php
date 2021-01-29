@@ -19,8 +19,8 @@ if ( sizeof($request_array['events']) > 0 ) {
       $reply_message = '';
       $reply_token = $event['replyToken'];
       $text = $event['message']['text'];
-      if ($text == 'Hi') {
-         $text2 = 'hello mannn'
+      if ($text == "Hi") {
+         $text2 = "hello mannn:;
       }
       $data = [
          'replyToken' => $reply_token,
